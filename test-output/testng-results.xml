@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T17:08:09 IST" name="Default suite" finished-at="2023-09-20T17:08:32 IST" duration-ms="23000">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest@5ddeb7cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-20T17:08:09 IST" name="Default test" finished-at="2023-09-20T17:08:32 IST" duration-ms="23000">
+      <class name="com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest@5ddeb7cb]" started-at="2023-09-20T17:08:09 IST" name="setUpClass" finished-at="2023-09-20T17:08:10 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest@5ddeb7cb]" started-at="2023-09-20T17:08:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-20T17:08:29 IST" duration-ms="19617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check whether the Host admin user can login and see HomePage."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the functionality of Home Page for PPI product User]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest@5ddeb7cb]" started-at="2023-09-20T17:08:29 IST" name="tearDownClass" finished-at="2023-09-20T17:08:32 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sarvatra.test.ehub.CucumberRunner.CucumberRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
